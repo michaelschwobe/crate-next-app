@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    ".jest/**/*.js",
+    ".jest/**/*.ts",
+    "next-env.d.ts",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    ".*/**/*.js",
+    ".*/**/*.jsx",
+    ".*/**/*.ts",
+    ".*/**/*.tsx",
+    "**/.eslintrc.js",
+    "**/.prettierrc.js"
+  ],
+  "exclude": ["node_modules", ".next", "out"]
+}

@@ -1,0 +1,17 @@
+# node_modules are ignored by default
+package-lock.json
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+/storybook-static
+
+# static
+/public
